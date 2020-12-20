@@ -2,7 +2,7 @@
  University OOP course
  
 ## list of content
-- [Matrix]
+- [Matrix](https://github.com/Bumblbeer/OOP/tree/main/lab1)
 - [Shapes](https://github.com/Bumblbeer/OOP/tree/main/lab2/etu.oop.UrbanRusakov.lab2/src)
 - [Phonebook]
 - [Generics]
