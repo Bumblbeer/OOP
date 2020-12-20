@@ -1,4 +1,4 @@
 interface Shape {
-    fun getArea(): Double
-    fun getPerimeter(): Double
+    fun getArea(): Float
+    fun getPerimeter(): Float
 }
