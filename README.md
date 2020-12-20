@@ -1,2 +1,10 @@
-# OOP
- University OOP course 
+# OOP labs done by A. Rusakov and M. Urban
+ University OOP course
+ 
+## list of content
+- [Matrix]
+- [Shapes](https://github.com/Bumblbeer/OOP/tree/main/lab2/etu.oop.UrbanRusakov.lab2/src)
+- [Phonebook]
+- [Generics]
+- [Files]
+- [GUI]
