@@ -37,4 +37,5 @@ fun main() {
     println("Min area shape: ${accum.getMinAreaShape()}")
     println("Min perimeter shape: ${accum.getMinPerimeterShape()}")
 
+
 }
