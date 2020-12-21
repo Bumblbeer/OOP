@@ -31,4 +31,8 @@ class Circle(val radius: Float) : Shape {
         return radius.hashCode()
     }
 
+    override fun toString(): String {
+        return "Circle(radius=$radius)"
+    }
+
 }
