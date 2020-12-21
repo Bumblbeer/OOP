@@ -5,6 +5,6 @@
 - [Matrix](https://github.com/Bumblbeer/OOP/tree/main/src/ru/etu/oop/lab1)
 - [Shapes](https://github.com/Bumblbeer/OOP/tree/main/src/ru/etu/oop/lab2)
 - [Phonebook](https://github.com/Bumblbeer/OOP/tree/main/src/ru/etu/oop/lab3)
-- [Generics] — In Progress
+- [Generics](https://github.com/Bumblbeer/OOP/tree/main/src/ru/etu/oop/lab4)
 - [Files] — In Progress
 - [GUI] — In Progress
