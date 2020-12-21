@@ -35,5 +35,4 @@ class ShapeAccumulator {
     fun getTotalPerimeter() : Float {
         return shapesList.map { shape -> shape.getPerimeter() }.sum()
     }
-
 }
