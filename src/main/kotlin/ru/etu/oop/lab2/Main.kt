@@ -19,8 +19,8 @@ fun main() {
 
     val shapesList = mutableListOf(rectangle, square, triangle, circle)
 
-    println(shapesList.minByOrNull { shape -> shape.getArea() })
-    println(shapesList.minByOrNull { shape -> shape.getPerimeter() })
+    println(shapesList.minBy { shape -> shape.getArea() })
+    println(shapesList.minBy { shape -> shape.getPerimeter() })
     println(shapesList.map { shape -> shape.getArea() }.sum())
 
 }

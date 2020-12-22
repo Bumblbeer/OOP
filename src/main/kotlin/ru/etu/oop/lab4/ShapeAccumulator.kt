@@ -13,19 +13,19 @@ class ShapeAccumulator {
     }
 
     fun getMaxAreaShape(): Shape? {
-        return shapesList.maxByOrNull { shape -> shape.getArea() }
+        return shapesList.maxBy { shape -> shape.getArea() }
     }
 
     fun getMinAreaShape() : Shape? {
-        return shapesList.minByOrNull { shape -> shape.getArea() }
+        return shapesList.minBy { shape -> shape.getArea() }
     }
 
     fun getMaxPerimeterShape() : Shape? {
-        return shapesList.maxByOrNull { shape -> shape.getPerimeter() }
+        return shapesList.maxBy { shape -> shape.getPerimeter() }
     }
 
     fun getMinPerimeterShape() : Shape? {
-        return shapesList.minByOrNull { shape -> shape.getPerimeter() }
+        return shapesList.minBy { shape -> shape.getPerimeter() }
     }
 
     fun getTotalArea() : Float {
