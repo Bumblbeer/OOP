@@ -6,6 +6,8 @@ class Triangle(val side1: Float, val side2: Float, val side3: Float ) : Shape {
     init {
         if (side1 <= 0 || side2 <= 0 || side3 <= 0)
             throw IllegalArgumentException("There's a non-natural value of a side")
+        if (side1 + side2 <= side3 || side1 + side3 <= side2 || side2 + side3 <= side1 )
+            throw IllegalArgumentException("This is an impossible triangle")
     }
 
     override fun getArea(): Float {
