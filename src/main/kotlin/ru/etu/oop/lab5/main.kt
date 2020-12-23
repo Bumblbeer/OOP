@@ -12,8 +12,8 @@ fun main() {
 
     // IO stream for Shapes list
     val shapeIO = IOInterface<Shape>()
-    shapeIO.write(shapesList, "shapes.json")
-    val restoredShapes = shapeIO.read("shapes.json")
+    shapeIO.write(shapesList, "src/main/kotlin/ru/etu/oop/lab5/shapes.json")
+    val restoredShapes = shapeIO.read("src/main/kotlin/ru/etu/oop/lab5/shapes.json")
 
     println("Restored shapes: $restoredShapes")
 }
