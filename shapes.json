@@ -1,0 +1,1 @@
+[{"CLASSNAME":"ru.etu.oop.lab2.Circle","DATA":{"radius":3.0}},{"CLASSNAME":"ru.etu.oop.lab2.Rectangle","DATA":{"width":5.0,"height":10.0}},{"CLASSNAME":"ru.etu.oop.lab2.Square","DATA":{"side":3.0}},{"CLASSNAME":"ru.etu.oop.lab2.Triangle","DATA":{"side1":15.0,"side2":10.0,"side3":10.0}}]

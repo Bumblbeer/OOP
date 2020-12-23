@@ -39,4 +39,5 @@ class ShapeAccumulator {
     override fun toString(): String {
         return "ShapeAccumulator(shapesList=$shapesList)"
     }
+
 }
