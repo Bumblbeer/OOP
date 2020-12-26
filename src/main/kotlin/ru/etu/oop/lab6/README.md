@@ -99,7 +99,7 @@ And we've got the list that we've saved:
 And now it is time to close our program. Task required to give a possibility to save before closing. So we'll modify our list again:
 
 <p align="center">
-<img alt="Modified list" src="demoPics/listModifiedBeforeClosing.png">
+<img alt="Modified list" src="demoPics/listModifiedBeforeClose.png">
 </p>
 
 And let's click on the close button. System dialog pops up giving an opportunity to save list:
