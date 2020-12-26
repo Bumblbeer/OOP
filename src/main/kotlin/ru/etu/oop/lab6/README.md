@@ -1,6 +1,6 @@
-#Demonstration
+# Demonstration
 
-##Adding shapes
+## Ading shapes
 
 <p align="center">
 <img alt="Launched program" src="demoPics/mainscreen.png">
@@ -49,7 +49,7 @@ Also, behind the scenes, the circle with radius 0.5 was added. In result, we've 
 <img alt="Modified list" src="demoPics/listModified.png">
 </p>
 
-##Modifying the list
+## Modifying the list
 
 Let's try to move a couple of shapes. We'll move the triangle up:
 
@@ -69,7 +69,7 @@ Now we'll check the remove button. For this, we'll remove the circle with radius
 <img alt="Shape removed" src="demoPics/circle05removed.png">
 </p>
 
-##Open/Save test
+## Open/Save test
 
 Now let's try to save this list to a **.json** file. After clicking on the save button, the system dialog window pops up:
 
