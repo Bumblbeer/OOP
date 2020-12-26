@@ -1,4 +1,5 @@
 #Demonstration
+
 ##Adding shapes
 
 <p align="center">
@@ -49,6 +50,7 @@ Also, behind the scenes, the circle with radius 0.5 was added. In result, we've 
 </p>
 
 ##Modifying the list
+
 Let's try to move a couple of shapes. We'll move the triangle up:
 
 <p align="center">
@@ -68,6 +70,7 @@ Now we'll check the remove button. For this, we'll remove the circle with radius
 </p>
 
 ##Open/Save test
+
 Now let's try to save this list to a **.json** file. After clicking on the save button, the system dialog window pops up:
 
 <p align="center">
