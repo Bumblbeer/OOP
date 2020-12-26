@@ -5,7 +5,7 @@ class Square(val side: Float) : Shape {
 
     init {
         if (side <= 0)
-            throw IllegalArgumentException("Value of side can't be a non-natural value")
+            throw IllegalArgumentException("Value of side can't be a non-positive value")
     }
 
     override fun getArea(): Float {

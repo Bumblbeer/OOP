@@ -5,7 +5,7 @@ import kotlin.math.*
 class Circle(val radius: Float) : Shape {
     init {
         if (radius <= 0)
-            throw IllegalArgumentException("Radius can't be a non-natural value")
+            throw IllegalArgumentException("Radius can't be a non-positive value")
     }
 
     override fun getArea(): Float {

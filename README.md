@@ -7,4 +7,4 @@
 - [x] [Phonebook](https://github.com/Bumblbeer/OOP/tree/main/src/main/kotlin/ru/etu/oop/lab3) — Origin commit by M. Urban
 - [x] [Generics](https://github.com/Bumblbeer/OOP/tree/main/src/main/kotlin/ru/etu/oop/lab4) — Origin commit by A. Rusakov
 - [x] [Files](https://github.com/Bumblbeer/OOP/tree/main/src/main/kotlin/ru/etu/oop/lab5) — Origin commit by M. Urban
-- [ ] [GUI]
+- [x] [GUI](https://github.com/Bumblbeer/OOP/tree/main/src/main/kotlin/ru/etu/oop/lab6) — Origin commit by A. Rusakov and M. Urban

@@ -5,7 +5,7 @@ class Rectangle(val width: Float, val height: Float) : Shape {
 
     init {
         if (width <= 0 || height <= 0)
-            throw IllegalArgumentException("There is a non-natural value of a side of the shape")
+            throw IllegalArgumentException("There is a non-positive value of a side of the shape")
     }
 
     override fun getArea(): Float {
