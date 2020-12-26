@@ -1,5 +1,6 @@
 package ru.etu.oop.lab6.fragments
 
+import ru.etu.oop.lab6.isFloatZero
 import ru.etu.oop.lab6.models.RectangleModel
 import ru.etu.oop.lab6.validateFloat
 import tornadofx.*
@@ -14,13 +15,13 @@ class RectangleAddFragment: Fragment("New square") {
     override val root = form {
         fieldset("Rectangle parameters") {
             field("Width") {
-                textfield(newRectangle.width).validator {
+                textfield(newRectangle.width).validator { it ->
                     when {
                         it.isNullOrBlank() ->
                             error("Width is required")
                         !validateFloat(it) ->
                             error("Invalid float")
-                        it.toFloat() == 0F || it.contains('-', true) ->
+                        isFloatZero(it) || it.contains('-', true) ->
                             error("Side must be positive")
                         else -> null
                     }
@@ -33,7 +34,7 @@ class RectangleAddFragment: Fragment("New square") {
                             error("Height is required")
                         !validateFloat(it) ->
                             error("Invalid float")
-                        it.toFloat() == 0F || it.contains('-', true) ->
+                        isFloatZero(it) || it.contains('-', true) ->
                             error("Side must be positive")
                         else -> null
                     }

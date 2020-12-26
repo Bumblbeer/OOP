@@ -1,5 +1,6 @@
 package ru.etu.oop.lab6.fragments
 
+import ru.etu.oop.lab6.isFloatZero
 import ru.etu.oop.lab6.models.CircleModel
 import ru.etu.oop.lab6.validateFloat
 import tornadofx.*
@@ -21,7 +22,7 @@ class CircleAddFragment : Fragment("New circle") {
                             error("Radius is required")
                         !validateFloat(it) ->
                             error("Invalid float")
-                        it.toFloat() == 0F || it.contains('-', true) ->
+                        isFloatZero(it) || it.contains('-', true) ->
                              error("Radius must be positive")
                         else -> null
                     }
