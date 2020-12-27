@@ -21,7 +21,7 @@ class Matrix(inputElements: Array<Array<Double>>) {
 
         items.forEach {
             if (it.size != width) {
-                throw IllegalStateException()
+                throw IllegalStateException("Invalid second dimension size in a row")
             }
         }
     }
@@ -67,19 +67,19 @@ class Matrix(inputElements: Array<Array<Double>>) {
 
     private fun areSameDims(matrix: Matrix) {
         if (matrix.height != height || matrix.width != width) {
-            throw IllegalArgumentException()
+            throw IllegalArgumentException("Matrices are not the same size. Cannot perform this action.")
         }
     }
 
     private fun areSameRotatedDims(matrix: Matrix) {
         if (width != matrix.height || height != matrix.width) {
-            throw IllegalArgumentException()
+            throw IllegalArgumentException("Cannot multiply matrices. Size condition is not satisfied")
         }
     }
 
     private fun isSquare() {
         if (width != height) {
-            throw IllegalStateException()
+            throw IllegalStateException("Matrix is not a square one.")
         }
     }
 
